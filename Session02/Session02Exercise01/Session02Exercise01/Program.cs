@@ -6,7 +6,11 @@ namespace Session02Exercise01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");  
+            Console.WriteLine("Hello World!");
+
+            string stringValue = "My World";
+
+            Console.WriteLine("The value of the string is: " + stringValue);
         }
     }
 }
